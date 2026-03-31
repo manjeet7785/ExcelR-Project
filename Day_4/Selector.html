@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selectors</title>
+  <link rel="stylesheet" href="Selector.css">
+</head>
+
+<body>
+  <b>Selector :-</b> <i>Selecters are used to seletct the element to style </i>
+  <h1>Types of Selector</h1>
+  <ol class="Type">
+    <li>Id Selector</li>
+    <li>Class Selector</li>
+    <li>Element Selector</li>
+    <li>universal Selector</li>
+    <li>Group Selector</li>
+    <li>Descendent Selector or </li>
+    <li>Child Selector</li>
+    <li>Adjacent Selector</li>
+    <li>General Selector</li>
+    <li>Attribute Selector</li>
+  </ol>
+
+  <hr>
+  <h1>Use of ID Selector</h1>
+  <b>ID Selector :-</b> <i>It have a unique identifier and it is a higher Specificity than other selectors. </i>
+
+  <pre><b>Syntax:-</b> #id{
+    property : value;
+    }</pre>
+  <br>
+  <pre><b>Example:-</b> <div id="Id">
+  <p id="para1">This is a Example of ID Selector.</p>
+      <h2>This is a heading.</h2>
+    </div></pre>
+
+
+
+  <b>Class Selector :-</b>
+  <i>It is used to select elements with a specific class attribute. It is lower than ID Selector.</i>
+
+  <pre> <b>Syntax:-</b>  .class{
+    property : value;
+    }</pre>
+
+  <pre><b>Example:-</b> <div class="Class">
+  <p class="para1">This is a Example of Class Selector.</p>
+      <h2>My name is Manjeet</h2>
+    </div></pre>
+
+
+  <b>Element Selector :-</b>
+  <i>It is used to select elements based on their tag name.</i>
+
+  <pre> <b>Syntax:-</b>  p{
+    property : value;
+    }</pre>
+
+  <pre><b>Example:-</b> <p>This is a Example of Element Selector.</p></pre>
+  <br>
+  <b>Universal Selector :-</b>
+  <i>It is used to select all elements on the page.</i>
+
+  <pre> <b>Syntax:-</b>  *{
+    property : value;
+    }</pre>
+
+  <br>
+
+
+  <b>Group Selector :-</b>
+  <i>It is used to select multiple elements with the same style.</i>
+
+  <pre> <b>Syntax:-</b>  p, h1, h2{
+    property : value;
+    }</pre>
+
+  <pre><b>Example:-</b> <div class="Group">
+     <p>This is a Example of Group Selector.</p>
+    <h1>This is a heading.</h1>
+    <h2>This is a subheading.</h2>
+    <i>This is a italic text.</i>
+  </div>
+    </pre>
+
+  <b>Descendent Selector :-</b>
+  <i>It is used to style both direct and indirect children of a specified element.</i>
+
+  <pre> <b>Syntax:-</b>  div .p{
+    property : value;
+    }</pre>
+
+  <pre><b>Example:-</b> <div class="Descendent">
+  <p>This is a Example of Descendent Selector.</p>
+      <h2>This is a heading.</h2>
+      <p class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat iste possimus inventore consequuntur, alias aliquam expedita eligendi adipisci facere atque iure, sed commodi magni fuga ut debitis dolores odio?</p>
+
+    </div></pre>
+
+  <b>Child Selector :-</b>
+  <i>It is used to style only direct children of a specified element.</i>
+
+  <pre> <b>Syntax:-</b>  div > p{
+    property : value;
+    }</pre>
+
+  <b>Adjacent Selector :-</b>
+  <i>It is used to style an element that is immediately adjacent to another specified element.</i>
+
+  <pre> <b>Syntax:-</b>  h1 + p{
+    property : value;
+    }</pre>
+
+  <b>General Selector :-</b>
+  <i>It is used to style all elements that are siblings of a specified element, regardless of their position.</i>
+
+  <pre> <b>Syntax:-</b>  h1 ~ p{
+    property : value;
+    }</pre>
+
+  <b>Attribute Selector :-</b>
+
+</body>
+
+</html>

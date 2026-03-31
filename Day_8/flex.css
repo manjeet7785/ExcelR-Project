@@ -1,0 +1,41 @@
+.parent {
+
+  border: 1px solid black;
+  height: 600px;
+
+
+}
+
+.container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
+#item {
+
+  height: 100px;
+  width: 100px;
+
+}
+
+.one {
+  background-color: rgb(19, 50, 226);
+
+}
+
+.two {
+  background-color: rgb(180, 107, 107);
+
+}
+
+.three {
+  background-color: rgb(14, 213, 57);
+
+}
+
+.four {
+  background-color: rgb(255, 0, 8);
+
+}
