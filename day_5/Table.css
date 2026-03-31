@@ -1,0 +1,64 @@
+  /* table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+  } */
+
+
+  /* Task 3 */
+  /* table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+  } */
+
+  /* Task 4 */
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+
+  .task {
+    text-align: center;
+  }
+
+  .product {
+    background-color: goldenrod;
+  }
+
+  .trm {
+    background-color: lightblue;
+  }
+
+  /* Task 6 */
+
+  table,
+  th,
+  tr {
+    border: 1px solid black;
+  }
+
+  .table6 {
+    text-align: center;
+  }
+
+  /* task 7 */
+
+  .table7 {
+    width: 500px;
+  }
+
+  .Ninja {
+    background-color: rgb(168, 242, 21);
+    text-align: right;
+  }
+
+  .A {
+    background-color: palevioletred;
+  }
