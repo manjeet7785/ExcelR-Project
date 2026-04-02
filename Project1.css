@@ -1,0 +1,16 @@
+table {
+  width: 70%;
+}
+
+table,
+tr,
+th,
+td {
+  text-align: center;
+  border: 1px solid black;
+
+}
+
+#t-Lower {
+  text-align: left;
+}
